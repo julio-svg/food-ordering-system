@@ -1,16 +1,14 @@
-package com.food.ordering.system.entity;
+package com.food.ordering.system.order.entity;
 
 import com.food.ordering.system.domain.entity.AggregateRoot;
 import com.food.ordering.system.domain.valueobject.*;
-import com.food.ordering.system.excetion.OrderDomainException;
-import com.food.ordering.system.valueobject.OrderItemId;
-import com.food.ordering.system.valueobject.StreeAddress;
-import com.food.ordering.system.valueobject.TrackingId;
+import com.food.ordering.system.order.excetion.OrderDomainException;
+import com.food.ordering.system.order.valueobject.OrderItemId;
+import com.food.ordering.system.order.valueobject.TrackingId;
+import com.food.ordering.system.order.valueobject.StreeAddress;
 
-import java.math.BigDecimal;
 import java.util.List;
 import java.util.UUID;
-import java.util.stream.Collectors;
 
 public class Order extends AggregateRoot<OrderId> {
     private final CustomerId customerId;

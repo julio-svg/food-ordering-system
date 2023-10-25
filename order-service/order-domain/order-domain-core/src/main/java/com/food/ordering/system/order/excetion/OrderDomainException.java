@@ -1,4 +1,4 @@
-package com.food.ordering.system.excetion;
+package com.food.ordering.system.order.excetion;
 
 import com.food.ordering.system.domain.exception.DomainException;
 
