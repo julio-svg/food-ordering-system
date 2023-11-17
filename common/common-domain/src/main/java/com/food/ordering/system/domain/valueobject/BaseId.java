@@ -21,4 +21,8 @@ public abstract class BaseId<T>{
     public int hashCode() {
         return Objects.hash(value);
     }
+
+    public T getValue() {
+        return value;
+    }
 }
